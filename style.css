@@ -380,9 +380,9 @@ li{
     margin-bottom: 10px;
 }
 .language{
-    border:  1px solid white;
-    width: 10%;
-    border-radius: 5px;
+    /* border:  1px solid white; */
+    /* width: 10%; */
+    /* border-radius: 5px; */
     
 }
 .lang{
@@ -401,6 +401,16 @@ li{
 @media(max-width:359px){
     .kim{
         width: 100%;
+    }
+}
+@media(max-width:535px){
+    .footer-list{
+        flex-direction: column;
+    }
+}
+@media(max-width:429px){
+    .btn2{
+        margin: auto;
     }
 }
 
